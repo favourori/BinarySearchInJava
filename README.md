@@ -9,10 +9,10 @@ It takes in two parameters: An Integer array & a value to search for.
 Here's an Example:
 
 int[] list = {20, 30, 40, 50, 60, 70, 100};
-        int elementToSearhFor = 30;
+        int elementToSearchFor = 30;
 
         BinarySearch binarySearch = new BinarySearch();
-        System.out.println(binarySearch.containsElement(list, elementToSearhFor));
+        System.out.println(binarySearch.containsElement(list, elementToSearchFor));
         
         
 This should return the Index of the element you're searching for. If the array doesn't contain the element you're searching for,it will return -1.
